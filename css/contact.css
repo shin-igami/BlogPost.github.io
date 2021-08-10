@@ -1,0 +1,40 @@
+.content-contact {
+    height: 100px;
+    /* background-color: rgb(216, 203, 187); */
+    display: flex;
+    height: 600px;
+    padding: 0px 8px;
+    position: relative;
+    font-family: var(--font2);
+    margin-bottom: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-contact::before {
+    content: "";
+    background-image: url('../img/backimg1.jpg');
+    position: absolute;
+    height: inherit;
+    width: 100%;
+    opacity: 0.12;
+    z-index: -1;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+.contact-form-input input,
+textarea {
+    width: 34vw;
+    padding: 8px 9px;
+}
+
+.contact-form-input {
+    padding: 10px 0px;
+}
